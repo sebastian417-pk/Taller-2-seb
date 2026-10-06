@@ -1,0 +1,19 @@
+OK:    en (10) entrada bcd  0 (0000) -> sseg = 1111110
+OK:    en (20) entrada bcd  1 (0001) -> sseg = 0110000
+OK:    en (30) entrada bcd  2 (0010) -> sseg = 1101101
+OK:    en (40) entrada bcd  3 (0011) -> sseg = 1111001
+OK:    en (50) entrada bcd  4 (0100) -> sseg = 0110011
+OK:    en (60) entrada bcd  5 (0101) -> sseg = 1011011
+OK:    en (70) entrada bcd  6 (0110) -> sseg = 1011111
+OK:    en (80) entrada bcd  7 (0111) -> sseg = 1110000
+OK:    en (90) entrada bcd  8 (1000) -> sseg = 1111111
+OK:    en (100) entrada bcd  9 (1001) -> sseg = 1111011
+OK:    en (110) entrada bcd 10 (1010) -> sseg = 0000001
+OK:    en (120) entrada bcd 11 (1011) -> sseg = 0110110
+OK:    en (130) entrada bcd 12 (1100) -> sseg = 1100011
+OK:    en (140) entrada bcd 13 (1101) -> sseg = 0011101
+OK:    en (150) entrada bcd 14 (1110) -> sseg = 1001001
+OK:    en (160) entrada bcd 15 (1111) -> sseg = 0011100
+<class 'myhdl.StopSimulation'>: No more events
+Simulación terminada: 16 casos, 0 errores.
+Conversión terminada (VHDL) en 'salida'.

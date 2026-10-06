@@ -1,0 +1,90 @@
+$date
+   Tue Oct  6 23:08:43 2026 UTC
+$end
+$version
+    MyHDL 0.11.52
+$end
+$timescale
+    1ns
+$end
+
+  $scope module sevensegdec_tb $end
+    $var reg 4 ! bcd_tb $end
+    $var reg 7 " sseg_tb $end
+    $scope module sevensegdec0 $end
+      $var reg 4 ! bcd $end
+      $var reg 7 " sseg $end
+      $var reg 7 # ssegout $end
+    $upscope $end
+  $upscope $end
+
+$enddefinitions $end
+
+$dumpvars
+b0000 !
+b0000000 "
+b0000000 #
+$end
+b1111110 #
+b1111110 "
+#10
+b0001 !
+b0110000 #
+b0110000 "
+#20
+b0010 !
+b1101101 #
+b1101101 "
+#30
+b0011 !
+b1111001 #
+b1111001 "
+#40
+b0100 !
+b0110011 #
+b0110011 "
+#50
+b0101 !
+b1011011 #
+b1011011 "
+#60
+b0110 !
+b1011111 #
+b1011111 "
+#70
+b0111 !
+b1110000 #
+b1110000 "
+#80
+b1000 !
+b1111111 #
+b1111111 "
+#90
+b1001 !
+b1111011 #
+b1111011 "
+#100
+b1010 !
+b0000001 #
+b0000001 "
+#110
+b1011 !
+b0110110 #
+b0110110 "
+#120
+b1100 !
+b1100011 #
+b1100011 "
+#130
+b1101 !
+b0011101 #
+b0011101 "
+#140
+b1110 !
+b1001001 #
+b1001001 "
+#150
+b1111 !
+b0011100 #
+b0011100 "
+#160
